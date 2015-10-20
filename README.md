@@ -22,8 +22,10 @@ GitHub is the `remote`.
 For using GitHub you need to go to [Github](http;//github.com)  
 Make an account and sign into your account.  
 Set up `SSH key` to connect GitHub with your command line.  
-For an example on [Nitrous](http://nitrous.io)
-
+For an example on [Nitrous](http://nitrous.io)  
+  1. Go on username  
+  2. dashboard  
+  3. 
 
 ---
 ## Repository Setup
