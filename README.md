@@ -37,7 +37,10 @@ On GitHub
   6. Give it a title (example: Nitrous)  
   5. Paste your Key   
 Once you are in your container open IDE  
-And now you can *_Start Coding_* on your command line
+ 
+And now you have to *_Start Coding_* on your command line   
+ssh -T git@github.com  and type "yes"  
+
 
 ---
 ## Repository Setup
