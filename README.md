@@ -19,7 +19,7 @@ GitHub is the `remote`.
 
 ---
 ## Initial Setup
-For using GitHub you need to go to [Github](http;//github.com)  
+For using GitHub you need to go to [Github](http://github.com)  
 Make an account and sign into your account.  
 Set up `SSH key` to connect GitHub with your command line.  
 
