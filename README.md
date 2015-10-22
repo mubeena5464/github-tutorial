@@ -97,7 +97,27 @@ we type “git push” in the future.
 at the beginning  
 `git status` optional command to see which files have been edited since the last commit    
 `git add file.ext` add the file(s) to the stage to be committed   
-`git commit -m “short/specific message”` take a ‘snapshot’ of the files on the stage.
-The message should be present-tense and describe what was modified in this snapshot   
+`git commit -m “specific message”` take a snapshot of the repo, present-tense and describe what was changed  
 `git log` see your past commits  
 `git diff` see the difference between your current code and the previous commit
+`git clone URL` clones remote repo to local
+
+---
+##Colaboration  
+You are able to colaborate and share another persons repo by `forking` it from his or her remote to yours,
+`cloning` into your local computer, making your own changes, then `pushing` it back to your repo. 
+Afterwards you can send a `pull request` to the him or her once he or she likes the changes, they can 
+pull it into their remote and save it as a commit.  
+1. Go on GitHub  
+2. Go on the persons repo  
+3. Fork it  
+4. It should be sent to your Remote  
+5. Clone it down to your local  
+6. Make your changes  
+7. Push it back up to your remote   
+8. Do a pull request, once the person confirms he can commit it.  
+
+If someone sent you a pull request you simply go into your repo, go to your pull requests.
+Look at it. If you like it CONFIRM. And that will be your snapshot. You can then clone it
+down to your Local and work on it from there.
+
