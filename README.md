@@ -39,7 +39,20 @@ On GitHub
 Once you are in your container open IDE  
  
 And now you have to *_Start Coding_* on your command line   
-ssh -T git@github.com  and type "yes"  
+ssh -T git@github.com  and type "yes"    
+Now you have to `git config`:  
+First make a dirictory:  
+`mkdir first-repo`  
+`cd first-repo`  
+`pwd` to check where you're at  
+you should be at /home/nitrous/first-repo  
+`git init`  
+`git config --global user.name “First Last”`  
+`git config --global user.email “your email”`  
+####You are command line is now coonected with GitHub.
+
+
+
 
 
 ---
