@@ -39,7 +39,7 @@ On GitHub
 Once you are in your container open IDE  
  
 And now you have to *_Start Coding_* on your command line   
-ssh -T git@github.com  and type "yes"    
+`ssh -T git@github.com`  and type "yes"    
 Now you have to `git config`:  
 First make a dirictory:  
 `mkdir first-repo`  
@@ -57,6 +57,26 @@ you should be at /home/nitrous/first-repo
 
 ---
 ## Repository Setup
+`pwd` to check where you are  
+You should be in /home/nitrous/first-repo  
+There should be `(master)` writen next to it confirming that you are using Git  
+`touch README.md`  
+open the README > WHATEVER YOU WANT TO WRITE  
+For Nitrous you have to manually save.  
+`git add README.md`   
+git commit -m “commit message (ex; add readme)”  
+Back in GitHub go to the `+`  
+New Repository  
+Repository name: first-repo (has to be the same)  
+Create Repository  
+Click SSH next to URL  
+Copy the `git remote`  
+Now copy the `git push`  
+Now refresh your GitHub page and you should be able to see the changes.  
+From now you just work on you README.md 
+Add and Commit  
+And `git push` no need for the `-u orgin master`
+
 
 
 
