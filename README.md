@@ -81,4 +81,24 @@ And `git push` no need for the `-u orgin master`
 
 
 ---
-## Workflow & Commands
+## Workflow & Commands  
+`git` a git command  
+`remote` we are setting up a connection between our current repository and an external one  
+`add` we are adding the remote repo  
+`origin` this is our “nickname” for the remote repo.  “origin” is standard.  
+`URL` the location of the remote repo.    
+`push` we are sending our commits from our local repo to our remote repo  
+`-u` means “upstream.” This remembers which remote repo & branch to push our changes to when    
+we type “git push” in the future.  
+`origin` this is which remote we are pushing to  
+`master` the “main” branch of our project   
+`pull` bring any changes from the remote repo down to the local repo  
+`git init` initializes git in our directory/repository for version control, only do this once
+at the beginning  
+`git status` optional command to see which files have been edited since the last commit    
+`git add file.ext` add the file(s) to the stage to be committed   
+`git status` command to see which files are staged for the commit   
+`git commit -m “short/specific message”` take a ‘snapshot’ of the files on the stage.
+The message should be present-tense and describe what was modified in this snapshot   
+`git log` see your past commits  
+`git diff` see the difference between your current code and the previous commit
