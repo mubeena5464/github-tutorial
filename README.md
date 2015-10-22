@@ -85,7 +85,7 @@ And `git push` no need for the `-u orgin master`
 `git` a git command  
 `remote` we are setting up a connection between our current repository and an external one  
 `add` to add a repo into file   
-`origin` this is our “nickname” for the remote repo.
+`origin` this is our “nickname” for the remote repo.    
 `URL` the location of the remote repo.    
 `push` we are sending our commits from our local repo to our remote repo  
 `-u` means “upstream.” This remembers which remote repo & branch to push our changes to when    
