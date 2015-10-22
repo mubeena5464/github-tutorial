@@ -96,7 +96,7 @@ we type “git push” in the future.
 `git init` initializes git in our directory/repository for version control, only do this once
 at the beginning  
 `git status` optional command to see which files have been edited since the last commit    
-`git add file.ext` add the file(s) to the stage to be committed   
+`git add file.ext` add the file to the stage to be committed   
 `git commit -m “specific message”` take a snapshot of the repo, present-tense and describe what was changed  
 `git log` see your past commits  
 `git diff` see the difference between your current code and the previous commit
