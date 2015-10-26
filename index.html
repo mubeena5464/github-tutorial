@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>GitHub Tutorial by mubeena5464</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/mubeena5464/github-tutorial">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>GitHub Tutorial</h1>
+            <h2>Git Started with GitHub</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/mubeena5464/github-tutorial/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/mubeena5464/github-tutorial/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<p><em>by Mubeen Alam</em></p>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<p><strong><em>Git</em></strong> is a type of <code>verion control</code>. A <code>version control</code> is a system that records the changes being 
+mad on a file in this case our repositories. Git screenshots the coding and it does not need 
+internet to run. It runs in your <code>local</code> computer. Git does not need GitHub to run. Git is used by all 
+developers. Git is in your command line. After you are complete with making your directory. you can just 
+<code>git add</code> and <code>git commit</code> we will get more into that in Workflow &amp; Commands.</p>
+
+<p><strong><em>GitHub</em></strong> is the cloud that contains the repositories. This helps save files incase something goes 
+wrong on the local machine. GitHub has to be run by Git. In this case internet in required to connect
+to the cloud. GitHub can be usefull if a person needs to share his or her files with another person. 
+GitHub is the <code>remote</code>. </p>
+
+<hr>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<p>For using GitHub you need to go to <a href="http://github.com">Github</a><br>
+Make an account and sign into your account.<br>
+Set up <code>SSH key</code> to connect GitHub with your command line.  </p>
+
+<p>For an example on <a href="http://nitrous.io">Nitrous</a>  </p>
+
+<ol>
+<li>Go on username<br>
+</li>
+<li>Dashboard<br>
+</li>
+<li>SSH Key tab<br>
+</li>
+<li>copy SSH Key<br>
+</li>
+</ol>
+
+<p>On GitHub   </p>
+
+<ol>
+<li>Go into your profile.<br>
+</li>
+<li>Go into Settings<br>
+</li>
+<li>Go to SSH keys<br>
+</li>
+<li>Click on Add SSH Keys<br>
+</li>
+<li>Give it a title (example: Nitrous)<br>
+</li>
+<li>Paste your Key<br>
+Once you are in your container open IDE<br>
+</li>
+</ol>
+
+<p>And now you have to <em><em>Start Coding</em></em> on your command line<br>
+<code>ssh -T git@github.com</code>  and type "yes"<br>
+Now you have to <code>git config</code>:<br>
+First make a dirictory:<br>
+<code>mkdir first-repo</code><br>
+<code>cd first-repo</code><br>
+<code>pwd</code> to check where you're at<br>
+you should be at /home/nitrous/first-repo<br>
+<code>git init</code><br>
+<code>git config --global user.name “First Last”</code><br>
+<code>git config --global user.email “your email”</code>  </p>
+
+<h4>
+<a id="you-are-command-line-is-now-coonected-with-github" class="anchor" href="#you-are-command-line-is-now-coonected-with-github" aria-hidden="true"><span class="octicon octicon-link"></span></a>You are command line is now coonected with GitHub.</h4>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<p><code>pwd</code> to check where you are<br>
+You should be in /home/nitrous/first-repo<br>
+There should be <code>(master)</code> writen next to it confirming that you are using Git<br>
+<code>touch README.md</code><br>
+open the README &gt; WHATEVER YOU WANT TO WRITE<br>
+For Nitrous you have to manually save.<br>
+<code>git add README.md</code><br>
+git commit -m “commit message (ex; add readme)”<br>
+Back in GitHub go to the <code>+</code><br>
+New Repository<br>
+Repository name: first-repo (has to be the same)<br>
+Create Repository<br>
+Click SSH next to URL<br>
+Copy the <code>git remote</code><br>
+Now copy the <code>git push</code><br>
+Now refresh your GitHub page and you should be able to see the changes.<br>
+From now you just work on you README.md 
+Add and Commit<br>
+And <code>git push</code> no need for the <code>-u orgin master</code></p>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<p><code>git</code> a git command<br>
+<code>remote</code> we are setting up a connection between our current repository and an external one<br>
+<code>add</code> to add a repo into file<br>
+<code>origin</code> this is our “nickname” for the remote repo.<br>
+<code>URL</code> the location of the remote repo.<br>
+<code>push</code> we are sending our commits from our local repo to our remote repo<br>
+<code>-u</code> means “upstream.” This remembers which remote repo &amp; branch to push our changes to when<br>
+we type “git push” in the future.<br>
+<code>origin</code> this is which remote we are pushing to<br>
+<code>master</code> the “main” branch of your project<br>
+<code>pull</code> bring any changes from the remote to the local<br>
+<code>git init</code> initializes git in our directory/repository for version control, only do this once
+at the beginning<br>
+<code>git status</code> optional command to see which files have been edited since the last commit<br>
+<code>git add file.ext</code> add the file to the stage to be committed<br>
+<code>git commit -m “specific message”</code> take a snapshot of the repo, present-tense and describe what was changed<br>
+<code>git log</code> see your past commits<br>
+<code>git diff</code> see the difference between your current code and the previous commit
+<code>git clone URL</code> clones remote repo to local</p>
+
+<hr>
+
+<h2>
+<a id="colaboration" class="anchor" href="#colaboration" aria-hidden="true"><span class="octicon octicon-link"></span></a>Colaboration</h2>
+
+<p>You are able to colaborate and share another persons repo by <code>forking</code> it from his or her remote to yours,
+<code>cloning</code> into your local computer, making your own changes, then <code>pushing</code> it back to your repo. 
+Afterwards you can send a <code>pull request</code> to the him or her once he or she likes the changes, they can 
+pull it into their remote and save it as a commit.<br>
+1. Go on GitHub<br>
+2. Go on the persons repo<br>
+3. Fork it<br>
+4. It should be sent to your Remote<br>
+5. Clone it down to your local<br>
+6. Make your changes<br>
+7. Push it back up to your remote<br>
+8. Do a pull request, once the person confirms he can commit it.  </p>
+
+<p>If someone sent you a pull request you simply go into your repo, go to your pull requests.
+Look at it. If you like it CONFIRM. And that will be your snapshot. You can then clone it
+down to your Local and work on it from there.</p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/mubeena5464">mubeena5464</a> can be found on <a href="https://github.com/mubeena5464/github-tutorial">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
